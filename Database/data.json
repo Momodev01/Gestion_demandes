@@ -1,0 +1,155 @@
+{
+    "annees": [
+        {
+            "id": 1,
+            "libelle": "2023\/2024",
+            "etat": 1
+        },
+        {
+            "id": 2,
+            "libelle": "2022\/2023",
+            "etat": 0
+        }
+    ],
+    "classes": [
+        {
+            "id": 1,
+            "libelle": "L2 Marketing Digit. & Com."
+        },
+        {
+            "id": 2,
+            "libelle": "L2 Dev Web Mobile"
+        },
+        {
+            "id": 3,
+            "libelle": "L2 GL"
+        }
+    ],
+    "etudiants": [
+        {
+            "id": 1,
+            "nom": "Gueye",
+            "prenom": "Fatima",
+            "login": "fatima@gmail.com",
+            "pwd": "passer",
+            "classe_id": 3
+        },
+        {
+            "id": 2,
+            "nom": "Diallo",
+            "prenom": "Houly",
+            "login": "houly@gmail.com",
+            "pwd": "passer",
+            "classe_id": 2
+        },
+        {
+            "id": 3,
+            "nom": "Ba",
+            "prenom": "Bouba",
+            "login": "bouba@gmail.com",
+            "pwd": "passer",
+            "classe_id": 1
+        }
+    ],
+    "demandes": [
+        {
+            "id": 1,
+            "date": "23\/12\/2023",
+            "type": "Absence",
+            "etat": "Accept\u00e9e",
+            "etudiant_id": 1,
+            "annee_id": 1,
+            "motif": "Je suis malade et je veux faire une demande d'absence de quelques jours"
+        },
+        {
+            "id": 2,
+            "date": "05\/01\/2024",
+            "type": "Suspension",
+            "etat": "En cours",
+            "etudiant_id": 3,
+            "annee_id": 1,
+            "motif": "Je suis malade et je veux faire une demande de suspension"
+        },
+        {
+            "id": 3,
+            "date": "30\/12\/2023",
+            "type": "Annulation",
+            "etat": "Rejet\u00e9e",
+            "etudiant_id": 2,
+            "annee_id": 2,
+            "motif": "Je suis malade et je veux faire une demande d'annulation"
+        },
+        {
+            "id": 4,
+            "date": "15\/02\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": 2,
+            "annee_id": 1,
+            "motif": "Je suis malade et je veux faire une demande d'absence de quelques jours"
+        },
+        {
+            "id": 5,
+            "date": "15\/02\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": 2,
+            "annee_id": 1,
+            "motif": "Je suis malade et je veux faire une demande d'absence de quelques jours"
+        },
+        {
+            "id": "659828118b6ea",
+            "date": "05\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": null,
+            "annee_id": 1,
+            "motif": "sddssdfsd"
+        },
+        {
+            "id": "659a750c1a93b",
+            "date": "07\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": null,
+            "annee_id": 1,
+            "motif": ""
+        },
+        {
+            "id": "659a755b47c7e",
+            "date": "07\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": null,
+            "annee_id": null,
+            "motif": ""
+        },
+        {
+            "id": "659a756f181ab",
+            "date": "07\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": null,
+            "annee_id": null,
+            "motif": ""
+        },
+        {
+            "id": "659a757cac33d",
+            "date": "07\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": null,
+            "annee_id": 1,
+            "motif": ""
+        },
+        {
+            "id": "659ac9bd006d0",
+            "date": "07\/01\/2024",
+            "type": "Absence",
+            "etat": "En cours",
+            "etudiant_id": 3,
+            "annee_id": 1,
+            "motif": "Hello"
+        }
+    ]
+}
