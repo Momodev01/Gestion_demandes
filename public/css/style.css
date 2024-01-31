@@ -19,6 +19,8 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    /* margin: 0 auto; */
+    margin: 8% 0% 0% 25%;
 }
 
 .infos {
@@ -78,13 +80,12 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #4CAF50;
-    display: flex;
     /* flex-direction: column; */
 }
 
 .profil img {
-    width: 100px;
-    height:100px;
+    width: 90px;
+    height:90px;
     border-radius: 50%;
     margin-right: 10px;
 }
@@ -104,8 +105,9 @@ body {
 .lesoptions {
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    font-size: 1.5rem;
+    /* justify-self: flex-start; */
+    gap: 30px;
+    font-size: 1.2rem;
 }
 
 .lesoptions a {
@@ -122,6 +124,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
 }
 
 h2 {
@@ -238,5 +241,9 @@ legend {
 
 .btns button[type="reset"] {
     background-color: #ccc;
+}
+
+.btns a{
+    text-decoration: none;
     color: #333;
 }
