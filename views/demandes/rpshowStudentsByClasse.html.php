@@ -27,7 +27,7 @@ $tab=array_slice($classe_students, $position, $nombre_ligne);
 
                 <button id="etat-demande" class="okbutton" name="action" value="filtre"> OK </button>
            </div> -->
-           
+           <div class="retour"><a href="<?=WEBROOT?>/?action=rpshow-classes" > &lsaquo; </a></div>
            <button class="newbutton"> <a href="<?=WEBROOT?>/?action=new-student"> Ajouter </a>  </button> 
         </div>
         

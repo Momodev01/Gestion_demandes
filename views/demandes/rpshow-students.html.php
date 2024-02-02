@@ -47,7 +47,7 @@ $tab=array_slice($etudiantsClasse, $position, $nombre_ligne);
         </table>
         <div class="pagination">
         <?php for ($i=1; $i <=$nombre_page ; $i++):?>
-             <a href="<?=WEBROOT?>/?action=rpshow-students=<?= $i?>"><?= $i ?> </a>
+             <a href="<?=WEBROOT?>/?action=rpshow-students&page=<?= $i?>"><?= $i ?> </a>
         <?php endfor?>
         </div>
 </form>

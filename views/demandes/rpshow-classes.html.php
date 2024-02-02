@@ -30,10 +30,9 @@ $tab=array_slice($classes, $position, $nombre_ligne);
             <?php endforeach?>
         </table>
         <div class="pagination">
-        <?php for ($i=1; $i <=$nombre_page ; $i++):?>
-             <a href="<?=WEBROOT?>/?action=rpshow-classes&page=<?= $i?>"><?= $i ?> </a>
-        <?php endfor?>
+            <?php for ($i=1; $i <=$nombre_page ; $i++):?>
+                 <a href="<?=WEBROOT?>/?action=rpshow-classes&page=<?= $i?>"><?= $i ?> </a>
+            <?php endfor?>
         </div>
-</form>
 
 </section>

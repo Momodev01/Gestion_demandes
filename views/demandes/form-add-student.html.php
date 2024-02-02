@@ -1,17 +1,17 @@
-<div class="bady">
+<div class="form4bady">
 
     <fieldset class="container">
         <legend> Ajout Etudiant </legend>
-        <form class="form2" action="<?=WEBROOT;?>"  method="post">
+        <form class="form4" action="<?=WEBROOT;?>"  method="post">
             <div class="texte">
                 <label for="Prenom"> Prenom </label>
-                <input type="text" name="prenom"  id="Prenom"/><br/>
+                <input type="text" name="prenom"  id="Prenom" placeholder="Prenom"/><br/>
                 <label for="Nom"> Nom </label>
-                <input type="text" name="nom"  id="Nom"/><br/>
+                <input type="text" name="nom"  id="Nom" placeholder="Nom"/><br/>
                 <label for="Login"> Login </label>
-                <input type="text" name="login"  id="Login"/><br/>
+                <input type="text" name="login"  id="Login" placeholder="Email"/><br/>
                 <label for="pwd"> Mot de pass </label>
-                <input type="text" name="pwd"  id="pwd"/><br/>
+                <input type="password" name="pwd"  id="pwd" placeholder="Mot de pass"/><br/>
                 <label for="class"> Classe </label>
                 <select name="classe" id="class">
                     <?php foreach ($listclasses as $classe): ?>
